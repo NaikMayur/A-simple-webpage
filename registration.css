@@ -1,0 +1,147 @@
+	body
+	 {
+	  background-color: #E6E6FA;
+	 
+	}
+
+	
+.nav
+	{
+		background-color:#F7DC6F;
+		width:100%;
+		height:33px;
+	}
+.nav a
+	{
+		width:90px;
+		height:33px;
+		color:black;
+		text-align:center;
+		font-size:17px;
+		background-color:#F7DC6F;
+		
+		display:inline-block;
+		text-decoration:none;
+	}
+
+.nav a:hover
+	{
+		background-color:#ddd;
+		color:red;
+	}
+	
+	.nav ul li a:hover
+	{
+		background-color:#ddd;
+		color:red;
+	}
+
+.nav a.active
+	{
+		width:5%;
+		height:33px;
+		background-color:lightblue;
+		color:black;
+	}
+
+
+	.leftbar
+	{
+	width:30px;
+	height:100%;
+	background-color:#E74C3C;
+
+	}
+
+	.background
+	{
+	background-color:black;
+	}
+
+
+	.boxcontent
+	{
+	background-color:#DCDCDC;
+	left: 50%;
+	top: 57%;
+	transform: translate(-50%, -50%);
+	border-radius:10px;
+	border:5px solid lightblue;
+	padding:40px;
+	position:absolute;
+	display:inline-block;
+	box-shadow:0 30px 60px 0 rgba(0,0,0,0.3);
+	}
+
+
+	form 
+	{ 
+		margin: 0 auto; 
+		width:275px;
+		
+	}
+
+	legend
+	{
+		background-color:lightblue;
+	}
+
+	fieldset
+	{
+		background-color:peachpuff;
+	}
+
+
+	marquee
+		{
+			background-color:none;
+			color:yellow;
+			padding:10px;
+		}
+
+
+
+
+		.topmarquee	{
+						background-color:#E74C3C ;
+					}
+
+
+	.nav ul {
+				display: inline;
+				margin: 0;
+				padding: 0;
+			}
+
+		.nav ul li
+	{
+		display:inline-block;
+	}
+	
+	.nav ul li:hover ul 
+	{
+		display: block;
+	}
+	
+	.nav ul li ul
+	{
+		position:absolute;
+		display:none;
+	}
+	.nav ul li ul li 
+	{
+		display:block;
+	}
+	.nav ul li ul li a
+	{	  
+		text-decoration: none;
+		color: #253b80;
+		font-size:15px;
+		padding: 5px;
+		display:inline-block;
+		width:80px;
+		height:30px;
+		display:block !important;
+		text-align:center;
+	}
+		

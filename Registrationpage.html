@@ -1,0 +1,76 @@
+	<html>
+	<head>
+	<meta charset="utf-8"/>
+	<title>Registration Page</title>
+	<script type="text/javascript">
+	function greet(){
+	  var fname = document.getElementById("fname");
+	  var username = fname.value;
+
+	 alert("Hello " + username + "!");
+	 }
+	</script>
+	<link rel="stylesheet" href="registration.css">
+	</head>
+	<body>
+	<marquee class="topmarquee" direction="right";> Welcome to SRIEIT!</marquee>
+	<div class="nav" >
+			<a class="active" href="C:\Users\Mayur Naik\Desktop\NOTES\Web technology\College Webpage\Homepage.html">Home</a>
+			<a href="#news">News</a>
+			<a href="#about">About us</a>
+			<ul>
+				<li>
+					<a href="#Departments" >Departments</a>
+					<ul>
+						<li><a href="#link1">IT</a></li>
+						<li><a href="#link2">Computer</a></li>
+						<li><a href="#link3">ETC</a></li>
+						<li><a href="#link4">Mechenical</a></li>
+					</ul>
+				</li>
+			</ul>		
+		<a href="C:\Users\Mayur Naik\Desktop\NOTES\Web technology\College Webpage\Contact page.html">Contact us</a>
+	</div>
+	<div class="leftbar">
+	<div class="boxcontent ">
+		<form action="rit@abcd.com">
+			<fieldset>
+				<legend >Registration Form:</legend>
+					<label for="fname" >First Name:</label>
+						<input type="text" id="fname" name="fname" required><br><br>
+						<label for="fname">Last Name:</label>
+						<input type="text" id="lname" name="lname" required><br><br>
+						<label for="email" >Email:</label>
+						<br>
+						<input type="text" id="email" name="email" required><br><br>
+						<label for="pass" >Password:</label>
+						<input type="password" id="pass" name="pass" required><br><br>
+						<label for="cpass" >Confirm Password:</label>
+						<input type="password" id="cpass" name="cpass" required><br><br>
+						<label for="course">Select Course:</label>
+	<select name="Course" id="course">
+		<option value="Information Technology">Information Technology</option>
+		<option value="Computer">Computer</option>
+		<option value="Eletronics and Telecomunication">Eletronics and Telecomunication</option>
+		<option value="Machenical">Mechanical</option>
+	</select>
+	<br><br>
+	<label for="semester">Semester</label>
+	<select name="Semester" id="Semester">
+		<option value="sem">I</option>
+		<option value="sem">II</option>
+		<option value="sem">III</option>
+		<option value="sem">IV</option>
+		<option value="sem">V</option>
+		<option value="sem">VI</option>
+		<option value="sem">VII</option>
+		<option value="sem">VIII</option>
+	</select>
+	<br><br>
+	<button type="enter"  onclick="greet()" formaction="#submit">Submit</button> <button type="Reset" value="Clear"> Clear</button></b>
+	</fieldset>
+	</form>
+	</div>
+	</div>
+	</body>
+	</html>
